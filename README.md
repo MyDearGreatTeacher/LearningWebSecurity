@@ -18,8 +18,26 @@ mutillidae漏洞平台[JSP]:/var/www/html/mutillidae
 webgoat漏洞平台[JSP]:/home/ksu/WebGoat
 juice-shop漏洞平台[Node.js]:/home/ksu/juice-shop
 ```
-### 啟動WebGoat漏洞平台
+### DVWA漏洞平台[PHP]:/var/www/html/DVWA
+
 ```
+原始碼
+https://github.com/ethicalhack3r/DVWA
+```
+```
+參考解答
+https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/
+```
+
+### mutillidae漏洞平台[JSP]:/var/www/html/mutillidae
+```
+參考解答
+https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/
+```
+
+### WebGoat漏洞平台
+```
+啟動WebGoat漏洞平台
 cd /home/ksu
 java -jar /home/ksu/WebGoat/webgoat-container-7.1-exec.jar -httpPort=8081 </dev/null &>/dev/null &
 ```
@@ -27,9 +45,13 @@ java -jar /home/ksu/WebGoat/webgoat-container-7.1-exec.jar -httpPort=8081 </dev/
 登入解題
 http://xxx.xxx.xxx.xxx:8081/WebGoat
 ```
-
-### 啟動OWASP Juice Shop漏洞平台
 ```
+參考解答
+https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/
+```
+### OWASP Juice Shop漏洞平台
+```
+啟動OWASP Juice Shop漏洞平台
 cd /home/ksu/juice-shop
 npm start </dev/null &>/dev/null &
 ```

@@ -28,10 +28,15 @@ java -jar /home/ksu/WebGoat/webgoat-container-7.1-exec.jar -httpPort=8081 </dev/
 http://xxx.xxx.xxx.xxx:8081/WebGoat
 ```
 
-### 啟動juice-shop漏洞平台
+### 啟動OWASP Juice Shop漏洞平台
 ```
 cd /home/ksu/juice-shop
 npm start </dev/null &>/dev/null &
+```
+
+```
+登入解題
+http://xxx.xxx.xxx.xxx:3000/
 ```
 
 # 20190509:下星期四交作業

@@ -26,7 +26,14 @@ https://github.com/ethicalhack3r/DVWA
 ```
 ```
 參考解答
-https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/
+
+
+https://ssorc.tw/3674
+
+https://ithelp.ithome.com.tw/articles/10207050
+
+https://ithelp.ithome.com.tw/articles/10202353
+https://ithelp.ithome.com.tw/articles/10210213
 ```
 
 ### mutillidae漏洞平台[JSP]:/var/www/html/mutillidae
@@ -69,6 +76,9 @@ https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/
 ```
 Windows下Dvwa的搭建方法
 https://zhuanlan.zhihu.com/p/34970507
+
+
+http://shaurong.blogspot.com/2018/07/damn-vulnerable-web-app-dvwa-19-windows.html
 ```
 
 

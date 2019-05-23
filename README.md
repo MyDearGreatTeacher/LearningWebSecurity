@@ -23,6 +23,10 @@ juice-shop漏洞平台[Node.js]:/home/ksu/juice-shop
 cd /home/ksu
 java -jar /home/ksu/WebGoat/webgoat-container-7.1-exec.jar -httpPort=8081 </dev/null &>/dev/null &
 ```
+```
+登入解題
+http://xxx.xxx.xxx.xxx:8081/WebGoat
+```
 
 ### 啟動juice-shop漏洞平台
 ```

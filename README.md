@@ -39,6 +39,11 @@ npm start </dev/null &>/dev/null &
 http://xxx.xxx.xxx.xxx:3000/
 ```
 
+```
+參考解答
+https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/
+```
+
 # 20190509:下星期四交作業
 
 10隻HTML5程式

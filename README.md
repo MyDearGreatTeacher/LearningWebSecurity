@@ -65,6 +65,12 @@ http://xxx.xxx.xxx.xxx:3000/
 參考解答
 https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/
 ```
+# Windows下建置Dvwa漏洞平台
+```
+Windows下Dvwa的搭建方法
+https://zhuanlan.zhihu.com/p/34970507
+```
+
 
 # 20190509:下星期四交作業
 

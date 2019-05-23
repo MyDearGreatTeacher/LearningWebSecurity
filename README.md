@@ -39,7 +39,7 @@ https://ithelp.ithome.com.tw/articles/10210213
 ### mutillidae漏洞平台[JSP]:/var/www/html/mutillidae
 ```
 參考解答
-https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/
+
 ```
 
 ### WebGoat漏洞平台
@@ -54,7 +54,7 @@ http://xxx.xxx.xxx.xxx:8081/WebGoat
 ```
 ```
 參考解答
-https://bkimminich.gitbooks.io/pwning-owasp-juice-shop/content/
+
 ```
 ### OWASP Juice Shop漏洞平台
 ```

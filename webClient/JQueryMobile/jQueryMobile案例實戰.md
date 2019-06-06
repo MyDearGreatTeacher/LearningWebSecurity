@@ -64,11 +64,14 @@
     </div>
     
     
- //定義story	
+ //定義story網頁
+ 
 	<div data-role="page" id="story">
-	  <div data-role="header">
+
+      <div data-role="header">
 	    <h1>Docker介紹</h1>	            
       </div>
+      
       <div data-role="content">
         <p>Docker是一個開放原始碼軟體專案，讓應用程式部署在軟體貨櫃下的工作可以自動化進行，藉此在Linux作業系統上，
 		提供一個額外的軟體抽象層，以及作業系統層虛擬化的自動管理機制[1]。
@@ -80,7 +83,7 @@ Docker利用Linux核心中的資源分離機制，例如cgroups，以及Linux核
 	</div>
 
 
-//定義role
+//定義role網頁
 	<div data-role="page" id="role">
 	  <div data-role="header">
 	    <h1>Docker介紹</h1>	            

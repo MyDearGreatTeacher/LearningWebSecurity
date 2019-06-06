@@ -9,6 +9,29 @@ Bootstrap4 目前是 Bootstrap 的最新版本，是一套用於 HTML、CSS 和 
 能夠快速為你的想法開發出原型或者構建整個 app 。
 ```
 
+
+# Bootstrap 4 的網格系統
+```
+Bootstrap 4 的網格系統是回應式的，列會根據螢幕大小自動重新排列。
+
+網格類
+Bootstrap 4 網格系統有以下 5 個類:
+.col- 針對所有設備
+.col-sm- 平板 - 螢幕寬度等於或大於 576px
+.col-md- 桌面顯示器 - 螢幕寬度等於或大於 768px)
+.col-lg- 大桌面顯示器 - 螢幕寬度等於或大於 992px)
+.col-xl- 超大桌面顯示器 - 螢幕寬度等於或大於 1200px)
+
+Bootstrap4 網格系統規則:
+
+網格每一行需要放在設置了 .container (固定寬度) 或 .container-fluid (全屏寬度) 類的容器中，這樣就可以自動設置一些外邊距與內邊距。
+使用行來創建水準的列組。
+內容需要放置在列中，並且只有列可以是行的直接子節點。
+預定義的class如 .row 和 .col-sm-4 可用於快速製作網格佈局。
+列通過填充創建列內容之間的間隙。 這個間隙是通過 .rows 類上的負邊距設置第一行和最後一列的偏移。
+網格列是通過跨越指定的 12 個列來創建。 例如，設置三個相等的列，需要使用用三個.col-sm-4 來設置。
+```
+# 學習範例一:
 ```
 <!DOCTYPE html>
 <html>
@@ -33,8 +56,11 @@ Bootstrap4 目前是 Bootstrap 的最新版本，是一套用於 HTML、CSS 和 
 </div>
 
 //第二個:容器container
+//網格每一行需要放在設置了 .container (固定寬度) 或 .container-fluid (全屏寬度) 類的容器中
 <div class="container">
+//使用預定義的class(.row)可用於快速製作網格佈局。
   <div class="row">
+//使用預定義的class(col-sm-4) 可用於快速製作網格佈局。
     <div class="col-sm-4">
       <h3>第一列</h3>
       <p>b Bootstrap教程</p>

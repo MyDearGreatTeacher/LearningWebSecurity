@@ -19,10 +19,13 @@
 		"Docker利用Linux核心中的資源分離機制，例如cgroups，以及Linux核心命名空間（namespaces），來建立獨立的容器（containers）"); 
 
 //定義行動網頁移動:往前一格
-//使用jquery的語法
+
 	 function prev(){
 	    i--; 
+	    //當i變成負的,就令i=2
+	    //i=2-->1-->0-->-1(負的)令i==2-->1-->0
 	    if (i < 0) {i = 2;}
+	    //使用jquery的語法
 	    $("#roleimg").attr("src", img[i]);		
 		$("#rolemsg").text(msg[i]);
       }

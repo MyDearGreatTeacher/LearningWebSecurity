@@ -1,12 +1,12 @@
 
-# 登入的畫面
+# 登入的畫面 index.html
 
 ```
 <!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
-	<title>我的jQuery Mobile程式</title>
+	<title>T-shirt 王的行動網站</title>
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
     <script src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>    
@@ -32,39 +32,46 @@
 	</script>
   </head>
   <body>  
+  //整個網頁==使用data-role="page"   網頁id="home"
     <div data-role="page" id="home">
+   //表頭===使用data-role="header"
       <div data-role="header" data-position="fixed">  
- 	    <h1>航海王</h1>
+ 	    <h1>T-shirt 王</h1>
       </div>
+   //內容==使用  data-role="content"
       <div data-role="content">	    
 		<img src="piece.jpg" width="100%"> 
 	    <a href="#story" data-rel="dialog" data-role="button" data-icon="arrow-r">故事介紹</a>
 		<a href="#role" data-role="button" data-icon="arrow-r">角色介紹</a>
 		<a href="http://www.ttv.com.tw/drama/2005/cartoon/onepeace/01-story.htm" data-rel="external" data-role="button" data-icon="arrow-r">航海王官方網站</a>
-	  </div>
+	  </div>	  
+   //表頭===使用data-role="header"	  
+   //小測驗:: data-position="fixed"
       <div data-role="footer" data-position="fixed">
-	    <h4>&copy;快樂影視</h4>
+	    <h4>&copy;快樂Docker</h4>
 	  </div>
     </div>
-	
-	<div data-role="page" id="story">
+ 
+ //定義story
+     <div data-role="page" id="story">
 	  <div data-role="header">
-	    <h1>故事介紹</h1>	            
+	    <h1>Docker介紹</h1>	            
       </div>
       <div data-role="content">
-        <p>海賊王黃金．羅傑遺留下一個被稱為ONEPIECE的神秘寶藏，
-        而主角「魯夫」找了海盜剋星「索隆」、女賊「娜美」、
-        可愛馴鹿「喬巴」等幾位夥伴要一起尋找傳說中的寶藏。</p>
+        <p>海賊王Docker遺留下一個被稱為ONEPIECE的神秘寶藏，
+        而主角「LUFU Docker」找了海盜剋星「So long Docker」、女賊「na mei Docker」、
+        可愛馴鹿「chifu Docker」等幾位夥伴要一起尋找傳說中的寶藏。</p>
       </div>
 	</div>
-	
+ //定義role	
 	<div data-role="page" id="role">
 	  <div data-role="header">
 	    <h1>人物介紹</h1>	            
       </div>
+      //第一個腳色
 	  <div data-role="content">
 	    <img id="roleimg" src="piece1.jpg" width="100%">
-		<p id="rolemsg">「喬巴」－夢想成為能治百病的神醫。</p>
+		<p id="rolemsg">「chou ba dcoker」－夢想成為能治百病的神醫。</p>
 	  </div>
 	  <div data-role="footer" data-position="fixed">
 	    <div data-role="navbar">

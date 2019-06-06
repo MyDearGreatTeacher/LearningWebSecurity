@@ -49,6 +49,8 @@
       <div data-role="header" data-position="fixed">  
  	    <h1>T-shirt 王Docker</h1>
       </div>
+      
+//主體===使用data-role="content"
       <div data-role="content">	    
 		<img src="piece.jpg" width="100%"> 
 	    <a href="#story" data-rel="dialog" data-role="button" data-icon="arrow-r">Docker介紹</a>
@@ -89,7 +91,11 @@ Docker利用Linux核心中的資源分離機制，例如cgroups，以及Linux核
 	  </div>
 	  <div data-role="footer" data-position="fixed">
 	    <div data-role="navbar">
-	      <ul>
+	    
+	   
+//最底下的三個按鈕:回到首頁,上一個網頁,下一個網頁
+
+          <ul>
             <li><a href="#home" class="ui-btn-active ui-state-persist">回首頁</a></li>
             <li><a href="javascript:prev();">上一個</a></li>
             <li><a href="javascript:next();">下一個</a></li>

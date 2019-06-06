@@ -17,12 +17,17 @@
       var msg = new Array("Docker是一個開放原始碼軟體專案，讓應用程式部署在軟體貨櫃下的工作可以自動化進行", 
 	    "Dockers是有能力打包應用程式及其虛擬容器，可以在任何Linux伺服器上執行的依賴性工具", 
 		"Docker利用Linux核心中的資源分離機制，例如cgroups，以及Linux核心命名空間（namespaces），來建立獨立的容器（containers）"); 
-	  function prev(){
+
+//定義行動網頁移動:往前一格
+//使用jquery的語法
+	 function prev(){
 	    i--; 
 	    if (i < 0) {i = 2;}
 	    $("#roleimg").attr("src", img[i]);		
 		$("#rolemsg").text(msg[i]);
       }
+//定義行動網頁移動:往後一格
+//使用jquery的語法
 	  function next(){
 	    i++; 
 	    if (i > 2) {i = 0;}

@@ -54,7 +54,12 @@ Bootstrap4 目前是 Bootstrap 的最新版本，是一套用於 HTML、CSS 和 
 ```
 
 ### 使用CDN
-
+```
+內容傳遞網路（英語：Content Delivery Network或Content Distribution Network，縮寫：CDN）
+是指一種透過網際網路互相連接的電腦網路系統，
+利用最靠近每位使用者的伺服器，更快、更可靠地將音樂、圖片、影片、
+應用程式及其他檔案傳送給使用者，來提供高效能、可擴展性及低成本的網路內容傳遞給使用者。
+```
 ```
   <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>

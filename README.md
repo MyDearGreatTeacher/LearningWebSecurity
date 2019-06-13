@@ -13,6 +13,10 @@ Software Error Category: Porous Defenses (11 errors)
 # 網站安全漏洞
 
 ```
+https://www.ithome.com.tw/article/131057
+```
+
+```
 https://www.ithome.com.tw/news/118411
 https://www.gss.com.tw/eis/168-eis89/1787-eis89-6
 https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project

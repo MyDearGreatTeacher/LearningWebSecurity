@@ -31,6 +31,10 @@ https://ithelp.ithome.com.tw/articles/10188148
 10大行動裝置安全風險　OWASP Mobile Top 10
 WASC Threat Classification：34種攻擊及潛在弱點
 ```
+
+```
+https://yu-jack.github.io/2017/10/20/secure-header/?fbclid=IwAR34MYmVMAk5XMCyzeZPVjjnKQ85X3Wv7wBZ-1JDMETCneagg7eCRJ7Od3I
+```
 # LearningWebSecurity
 
 # 網站安全漏洞平台:實戰
